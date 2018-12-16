@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: yuewen-service-recommend
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: yuewen-config
+      fail-fast: true
+      profile: dev
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${EUREKA_SERVICE_URL}/eureka/
+
+

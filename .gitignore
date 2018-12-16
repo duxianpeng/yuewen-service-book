@@ -1,0 +1,25 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+.recommenders
+RemoteSystemsTempFiles/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+bin/
+
+# Mac
+.DS_Store
+
+# Maven
+logs/
+target/
+
+# GIT
+.git/
+
+
